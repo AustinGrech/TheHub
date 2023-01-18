@@ -1,0 +1,109 @@
+html {
+    font-size: 16px;
+}
+
+body {}
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-color: lightgray;
+    color: black;
+    margin-top:auto;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+.section1 {
+    padding: 20px 50px;
+}
+
+#storylist ul {
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url(../images/ItsMe.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: inline-block;
+    filter: drop-shadow(5px 5px 5px black);
+    vertical-align: middle;
+}
+
+.text {
+    padding: 0px 15px;
+}
+
+#picofme {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+#journeystory {
+
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+
+}
+
+.bold { 
+    font-weight: 900;
+}
+
+a.blue {
+    color: blue;
+}
+
+.btn {
+    background-color: black;
+    color: lightgray;
+}
+
+.btn:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.res {
+    text-align: center;
+}
+
+.contact a {
+   text-decoration: none;
+   color: black;
+}
+
+.contact a:hover {
+    color: gray;
+} 
+.contact li {
+    display: inline-block;
+    list-style-type: none;
+   
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+}
