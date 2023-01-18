@@ -107,3 +107,14 @@ a.blue {
     height: 5px;
     width: 100%;
 }
+
+.right{
+    background-color: lightgray;
+    
+}
+
+.exp p {
+    columns: 3;
+    list-style-type: none;
+    
+}
