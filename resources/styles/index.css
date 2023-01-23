@@ -5,7 +5,9 @@ html {
     background-size:;
 }
 
-body {}
+body {
+    background-image: url(../images/R.jfif);
+}
 
 table {
     padding: 50px 20px;
