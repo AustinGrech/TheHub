@@ -1,27 +1,47 @@
 html {
     font-size: 16px;
+    background-image: url(../images/R.jfif);
+    background-repeat: no-repeat;
+    background-size:;
 }
 
 body {}
+
+table {
+    padding: 50px 20px;
+    margin: 10px 20px;
+    filter:drop-shadow(5px 5px 5px white);
+    box-shadow: 5px 5px 5px black;
+} 
 .navbar {
-    background-color: transparent;
-    position: fixed;
+    
+    position: relative;
     top: 0;
     width: 100%;
+    text-align: center;
+    
 }
 
 .navbar li {
     display: inline-block;
-    padding: 30px 20px;
+    padding: 20px 20px;
+    color: black;
+    cursor: pointer;
+    
 }
 
 .navbar a {
     text-decoration: none;
     color: black;
+    
+}
+
+.navbar a:hover {
+    color: white;
 }
 
 .banner {
-    background-color: lightgray;
+    
     color: black;
     margin-top:auto;
     text-align: center;
@@ -60,24 +80,41 @@ body {}
 }
 
 #journeystory {
-
+    
     text-align: center;
+    filter:drop-shadow(5px 5px 5px white);
     color: black;
     font-size: 3rem;
+    box-shadow: 5px 5px 5px black;
+    
+    
+}
 
+#journeystory:hover {
+    color: white;
+    filter:drop-shadow(5px 5px 5px gray)
+}
+
+.journeyp {
+    text-align: center;
+    
 }
 
 .bold { 
     font-weight: 900;
 }
 
-a.blue {
-    color: blue;
-}
-
 .btn {
     background-color: black;
     color: lightgray;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+.btn a {
+    color: lightgray;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -87,6 +124,9 @@ a.blue {
 
 .res {
     text-align: center;
+    border: 5px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .contact a {
@@ -95,7 +135,7 @@ a.blue {
 }
 
 .contact a:hover {
-    color: gray;
+    color: white;
 } 
 .contact li {
     display: inline-block;
@@ -109,12 +149,26 @@ a.blue {
 }
 
 .right{
-    background-color: lightgray;
+    
     
 }
 
 .exp p {
-    columns: 3;
+    
     list-style-type: none;
     
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    padding: 20px;
+}
+
+td ul {
+    list-style-type: none;
+    text-align: center;
 }
