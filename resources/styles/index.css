@@ -209,7 +209,7 @@ td ul {
     text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 430px) {
 
 * {
  
@@ -219,8 +219,11 @@ td ul {
     font-size: large;
 }
 
+table td ul {
+    list-style-type: circle;
+}
 table {
-    visibility: collapse;
+   display: contents;
 }
 
 .res {
