@@ -128,6 +128,7 @@ table {
     color: black;
 }
 
+/* -- my Resume -- */
 .res {
     text-align: center;
     border: 5px solid black;
@@ -154,15 +155,44 @@ table {
     width: 100%;
 }
 
-.right{
-    
-    
+.gridcontain {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+.resume {
+    display: inline;
+    width: 100%;
+    height: 10%;
+    grid-template-columns: repeat(4fr);
+    grid-column: span 4fr;
+}
+.sidebar{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  grid-column: span 2fr;
+  
 }
 
-.exp p {
-    
-    list-style-type: none;
-    
+.jam {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+   
+}
+.exp {
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.obj {
+    text-align:justify;
+}
+.certs {
+display: inline-block;
+vertical-align: middle;
 }
 
 table {
