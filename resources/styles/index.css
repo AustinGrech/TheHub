@@ -208,3 +208,35 @@ td ul {
     list-style-type: none;
     text-align: center;
 }
+
+@media (max-width: 500px) {
+
+* {
+ 
+}
+
+#journeystory {
+    font-size: large;
+}
+
+table {
+    visibility: collapse;
+}
+
+.res {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 0px;
+}
+.contact {
+    font-size: small;
+    text-align: center;
+}
+.gridcontain {
+font-size: smaller;
+}
+
+.resume {
+    font-size: smaller;
+}
+
+}    
